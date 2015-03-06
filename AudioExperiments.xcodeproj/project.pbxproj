@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52215901A9EEEA200C5517E /* M1F1-float32WE-AFsp.wav in Resources */ = {isa = PBXBuildFile; fileRef = E522158F1A9EEEA200C5517E /* M1F1-float32WE-AFsp.wav */; };
 		E5E70E2E1A9EDB200087F043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E70E2D1A9EDB200087F043 /* AppDelegate.swift */; };
 		E5E70E301A9EDB200087F043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E70E2F1A9EDB200087F043 /* ViewController.swift */; };
 		E5E70E331A9EDB200087F043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E70E311A9EDB200087F043 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E522158F1A9EEEA200C5517E /* M1F1-float32WE-AFsp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "M1F1-float32WE-AFsp.wav"; sourceTree = "<group>"; };
 		E5E70E281A9EDB200087F043 /* AudioExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E70E2C1A9EDB200087F043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E70E2D1A9EDB200087F043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E522158E1A9EEE8C00C5517E /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				E522158F1A9EEEA200C5517E /* M1F1-float32WE-AFsp.wav */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 		E5E70E1F1A9EDB1F0087F043 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		E5E70E2A1A9EDB200087F043 /* AudioExperiments */ = {
 			isa = PBXGroup;
 			children = (
+				E522158E1A9EEE8C00C5517E /* audio */,
 				E5E70E2D1A9EDB200087F043 /* AppDelegate.swift */,
 				E5E70E2F1A9EDB200087F043 /* ViewController.swift */,
 				E5E70E311A9EDB200087F043 /* Main.storyboard */,
@@ -195,6 +206,7 @@
 				E5E70E331A9EDB200087F043 /* Main.storyboard in Resources */,
 				E5E70E381A9EDB200087F043 /* LaunchScreen.xib in Resources */,
 				E5E70E351A9EDB200087F043 /* Images.xcassets in Resources */,
+				E52215901A9EEEA200C5517E /* M1F1-float32WE-AFsp.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				E5E70E491A9EDB200087F043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5E70E4A1A9EDB200087F043 /* Build configuration list for PBXNativeTarget "AudioExperimentsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				E5E70E4C1A9EDB200087F043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
